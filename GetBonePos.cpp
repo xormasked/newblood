@@ -1,3 +1,41 @@
+
+
+enum BoneHash : uint32_t {
+    PELVIS = 0xDED10611,
+    STOMACH = 0x530EC1CB,
+    LUMBAR = 0x8F39FA4E,
+    THORAX = 0x1630ABF4,
+    SPINE = 0x8023796D,
+    NECK = 0x7C159A2,
+    HEAD = 0xA9CEFD4A,
+    
+    // Left leg
+    LHIP = 0x176183F0,
+    LKNEE = 0x60DF401,
+    LFOOT = 0x58988870,
+    LTOE = 0xB95094E1,
+    
+    // Right leg
+    RHIP = 0x757F1291,
+    RKNEE = 0x863D09FC,
+    RFOOT = 0x9B14362C,
+    RTOE = 0x42BE0FCB,
+    
+    // Left arm
+    LCLAVICLE = 0x2D4660A8,
+    LSHOULDER = 0xEB830ADA,
+    LELBOW = 0x89B93A80,
+    LHAND = 0xB675F36C,
+    
+    // Right arm
+    RCLAVICLE = 0xF60647E5,
+    RSHOULDER = 0x6BB3F727,
+    RELBOW = 0x7257a1AA,
+    RHAND = 0x75F94D30,
+};
+
+
+
 struct _BoneInfo {
 private:
     char pad1[ 0x18 ];
